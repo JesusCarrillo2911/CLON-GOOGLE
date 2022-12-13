@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 6rem;
+}
+.nav-container{
+    height: 4.8rem;
+    padding: 0.8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    width: 25rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    padding: 0 0.4rem;
+}
+.nav-list li{
+    list-style: none;
+    margin: 1rem 1rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu-puntos{
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: cover;
+}
+.img-user{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+main{
+    margin-top: 8rem;
+    text-align: center;
+}
+ main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+main .main-logo img{
+    width: 30rem;
+}
+
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 5.3rem;
+}
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 0.1rem 0.6rem 0 #20212474;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon{
+    background-image: url('https://t3.ftcdn.net/jpg/05/46/32/48/240_F_546324895_tGS8YP47q0MI1bwx2kiHyILTMIsRFFUj.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+
+}
+main .main-input .micro-icon{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3128/3128290.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 53rem;
+    margin: 0 auto;
+   
+}
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+main .main-buttons button:hover{
+    border: 0.1rem solid #dadce0;
+    box-shadow: 0 0.1rem 0.1rem black;
+    color: #222;
+}
+footer{
+    margin-top: 9rem;
+    height: 1.5rem;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+    padding: 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .footer-container ul{
+    display: flex;
+    list-style: none;
+
+}
+footer .footer-container ul a{
+    text-decoration: none;
+    margin: 0 0.2rem;
+    color: #70757a;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+}
+
+footer .footer-container ul a:hover{
+    text-decoration: underline;
+}
